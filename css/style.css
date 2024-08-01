@@ -38,6 +38,17 @@ header {
   z-index: -1;
 }
 
+/* Change the color hover */
+#fotoCV {
+  width: 25%;
+  height: auto;
+  margin: 5px;
+}
+
+#titulo_cabecera {
+  text-align: center;
+}
+
 /* Style the top navigation bar */
 nav {
   overflow: hidden;
@@ -64,12 +75,7 @@ nav a {
   text-decoration: none;
 }
 
-/* Change the color hover */
-#fotoCV {
-  width: 25%;
-  height: auto;
-  margin: 5px;
-}
+
 
 section {
   float: left;
