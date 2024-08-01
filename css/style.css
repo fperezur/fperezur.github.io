@@ -79,7 +79,8 @@ nav a {
 
 section {
   float: left;
-  width: 70%;
+  width: 90%;
+  text-align: justify;
 }
 
 aside {
@@ -104,9 +105,26 @@ aside {
 
 footer {
   clear: both;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
   padding: 20px;
-  border-top: 2px solid #0c1ae2;
+  color: #f2f2f2;
+  background-color: #0c1ae2;
+}
+
+#footer1 {
+  width: 25%;
+}
+#footer2 {
+  width: 25%;
+}
+#footer3 {
+  width: 25%;
+}
+#footer4 {
+  flex: 1 1 50%;
 }
 
 .logo {
